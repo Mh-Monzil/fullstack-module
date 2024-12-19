@@ -1,7 +1,7 @@
 {
   // constraints
 
-  // ensuring that function have to send much needed params.
+  // ensuring that function have to send much needed params to maintain type.
 
   const addCourseToStudent = <
     T extends { id: number; name: string; email: string }
